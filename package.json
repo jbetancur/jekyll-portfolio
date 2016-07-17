@@ -1,0 +1,29 @@
+{
+  "name": "jekyll-portfolio",
+  "version": "0.1.0",
+  "description": "my personal portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "test-tdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbetancur/jekyll-portfolio.git"
+  },
+  "keywords": [
+    "jb",
+    "john",
+    "betancur",
+    "portfolio",
+    "resume"
+  ],
+  "author": "John Betancur <johnnyazee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbetancur/jekyll-portfolio/issues"
+  },
+  "homepage": "https://github.com/jbetancur/jekyll-portfolio#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
