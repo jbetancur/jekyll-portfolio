@@ -18,6 +18,15 @@ github_username:  jbetancur
 # Build settings
 markdown: kramdown
 
+destination: public
+#source: src
+
 exclude:
+- webpack
 - node_modules
 - package.json
+
+sass:
+  style: compressed
+
+layout: compress
