@@ -1,0 +1,55 @@
+$card-border-radius: 5px;
+
+%card-basics {
+  position: absolute;
+  padding: 1em;
+}
+
+.card {
+  border-radius: $card-border-radius;
+  position: relative;
+  min-width: 17em;
+  min-height: 22em;
+  margin: 0.5em;
+  box-shadow: 0 0 8px 0 rgba($md-black, 0.3);
+
+  .card-header {
+    border-top-right-radius: $card-border-radius;
+    border-top-left-radius: $card-border-radius;
+    position: relative;
+    overflow: hidden;
+    min-height: 3.5em;
+
+    .card-image {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: rgba($md-white, 0.15);
+      background-blend-mode: overlay;
+      height: 13em;
+    }
+
+    .card-title {
+      @extend %card-basics;
+      overflow: hidden;
+      bottom: 0;
+      height: 1.5em;
+      background-color: rgba($md-black, 0.6);
+      color: $md-grey-100;
+      width: 100%;
+
+      a {
+        color: $md-grey-100;
+      }
+    }
+  }
+
+  .card-content {
+    @extend %card-basics;
+    color: $md-grey-700;
+  }
+
+  .card-footer {
+
+  }
+}

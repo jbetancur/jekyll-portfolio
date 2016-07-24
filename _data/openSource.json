@@ -1,0 +1,9 @@
+[
+  {
+    "title": "flexybox",
+    "description": "This site is built with Flexy Box! Flexy Box is a simple lightweight cross browser flex grid framework written in SCSS. Take the guess work out of CSS3 Flex Box and use Flexy Box to create modern fluid page layouts.",
+    "github": "https://github.com/jbetancur/flexybox",
+    "npm": "https://www.npmjs.com/package/flexybox",
+    "image": "http://placeimg.com/640/480/any"
+  }
+]

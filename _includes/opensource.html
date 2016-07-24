@@ -1,0 +1,21 @@
+<section class="row center-center">
+    {% for project in site.data.openSource %}
+    <div class="flex-4 flex-xs-12 flex-sm-6">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-image">
+                    <img src="{{ project.image }}">
+                </div>
+                <div class="card-title">
+                    <a href="{{ project.github }}" target="_blank">{{ project.title }}</a>
+                </div>
+            </div>
+
+            <div class="card-content">
+                {{ project.description }}
+            </div>
+
+        </div>
+    </div>
+    {% endfor %}
+</section>

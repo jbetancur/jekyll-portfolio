@@ -1,23 +1,8 @@
 ---
-layout: default
+layout: about
+title: Me
+hero-title: John Betancur
+hero-subtitle: Adventurer, Seeker of the Unknown, Software Developer
+hero-welcome: Hey! Welcome to my portfolio site. Apologies up front as it's still under construction. Anyway, the purpose of this site is to provide a portfolio of my open source projects, contributions, professional work, and  all manner of well informed blog ramblings. Stay Tuned!
+permalink: /
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
